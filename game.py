@@ -10,6 +10,7 @@ def predict_emotion(text):
     return model.predict(input_text)[0]
 
 
+
 emotion_memory = {"positive": 0, "negative": 0, "neutral": 0}
 
 # **Scene 1
