@@ -34,7 +34,7 @@ model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-unc
 
 # Define training arguments
 training_args = TrainingArguments(
-    output_dir="./checkpoints",  # Save directory
+    output_dir=r"C:\Users\ab22adw\OneDrive - University of Hertfordshire\Visual_Novel_NLP_Final_year_project\checkpoints",  # Save directory
     save_strategy="steps",       # Save checkpoints every few steps
     save_steps=500,              # Save every 500 steps
     save_total_limit=2,          # Keep only the last 2 checkpoints
